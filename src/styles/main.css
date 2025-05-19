@@ -1,8 +1,8 @@
-@import './fonts.css' layer(base); /* for custom fonts */
 
 @import 'tailwindcss';
 
 @theme {
+
 	--font-*: initial;
 	--font-heading: sans-serif;
 	--font-body: "Raleway", sans-serif;
@@ -12,8 +12,6 @@
 	--breakpoint-xl: 76rem;
 	--breakpoint-2xl: initial;
 }
-
-
 
 @utility container {
 	margin-inline: auto;

@@ -6,10 +6,376 @@ import Footer from '@components/Footer.astro';
 
 <Layout title='Astro'>
 	<Header />
-	<div class=''>
-		<h1 class='mt-4 text-xl'>Home</h1>
-		<p>This is the Astro homepage page.</p>
-		<img src='/img/icon-home.png' />
+	<div>
+		<div class="bg-brand-beige sm:py-8 lg:py-10 xl:py-12 relative">
+			<img src="/img/hero-image.jpg" class="sm:absolute left-0 inset-y-0 sm:w-1/2 h-64 sm:h-full z-20 object-cover" alt="">
+			<div class="relative border-t-[3px] md:border-t-[5px] border-b-[3px] md:border-b-[5px] border-white">
+				<div class="container">
+					<div class="sm:w-1/2 ml-auto lg:pr-24 sm:pl-6 md:pl-8 lg:pl-12 xl:pl-16 py-10 sm:py-12 md:py-14 lg:py-20 xl:py-28">
+						<h2 class="text-white font-medium text-3xl md:text-4xl xl:text-5xl pb-4 md:pb-6">De Kleine Ooievaar</h2>
+						<p class="text-xl md:text-2xl xl:text-3xl text-white font-medium">Van kaas tot overheerlijke planken, onze producten brengen altijd sfeer op tafel.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="relative overflow-hidden">
+			<div class="absolute -right-18 top-7 sm:top-10 lg:top-14 border-[5px] border-brand-beige w-[24rem] sm:w-[38rem] md:w-[25rem] lg:w-[30rem] xl:w-[39rem] h-[19rem] md:h-[24rem]"></div>
+			<div class="absolute -left-18 bottom-[25rem] sm:bottom-92 md:bottom-18 border-[5px] border-brand-beige w-[24rem] sm:w-[38rem] md:w-[25rem] lg:w-[30rem] xl:w-[39rem] h-[19rem] md:h-[25rem] lg:h-[28rem]"></div>
+			<div class='container pt-12 sm:pt-16 lg:pt-20 pb-8 md:pb-12 xl:px-36 relative z-20'>
+				<div class='flex flex-col-reverse items-center pb-10 md:flex-row md:gap-10 lg:items-center lg:pb-20'>
+					<div class='w-full py-4 md:py-5 lg:w-1/2 lg:pr-10'>
+						<div class='flex'>
+							<div>
+								<span class='text-sm text-black md:text-lg'>Over ons</span>
+								<h1 class='text-brand-beige text-2xl font-bold md:text-3xl'>De Kleine Ooievaar</h1>
+							</div>
+						</div>
+						<div class='flex pt-3'>
+							<div class='prose prose-p:text-xs/[14px] prose-p:font-light text-black'>
+								<p>
+									Ik ben Leontine. Trotse eigenares van “ De Kleine Ooievaar”. Met al bijna 10 jaar ervaring sta ik klaar voor jullie met veel goesting op de wekelijkse markt. Het verhaal begon toen ik 19 werd en begon in de zaak bij mijn ouders. Daar leerde ik de stiel en besefte ik al heel snel dat dit mijn droomjob was! Elke dag naar een andere locatie en in contact met de mensen, de leuke sfeer,...
+								</p>
+								<p>
+									Na enkele jaren ervaring op te doen maakte ik een grote stap en begon ik aan mijn eigen verhaal: De Kleine Ooievaar.
+								</p>
+							</div>
+						</div>
+					</div>
+					<img
+						src='/img/about-image.jpg'
+						class='h-[20rem] w-full object-cover object-[50%_10%] md:h-[25rem] lg:w-1/2'
+						alt=''
+					/>
+				</div>
+				<div class='flex flex-col items-center md:flex-row md:gap-10 lg:items-center'>
+					<div class="w-full lg:w-1/2 relative h-[20rem]  md:h-[25rem] lg:h-[28rem]">
+						<div class="absolute bottom-4 inset-x-0 mx-auto z-20 flex justify-center gap-1">
+							<div class="border border-white p-px rounded-full size-3">
+								<div class="rounded-full w-full h-full border-2 border-transparent bg-white"></div>
+							</div>
+							<div class="rounded-full size-3 border border-white bg-transparent"></div>
+							<div class="rounded-full size-3 border border-white bg-transparent"></div>
+						</div>
+						<img
+							src='/img/cheese-image.jpg'
+							class='object-cover w-full object-[50%_30%] h-full'
+							alt=''
+						/>
+					</div>
+					<div class='w-full py-4 md:py-5 lg:w-1/2 lg:pr-10'>
+						<div class='flex'>
+							<div>
+								<span class='text-sm text-black md:text-lg'>Ons assortiment</span>
+								<h1 class='text-brand-beige text-2xl font-bold md:text-3xl'>Overheerlijke kazen</h1>
+							</div>
+						</div>
+						<div class='flex pt-3'>
+							<div class='prose prose-p:text-xs/[14px] prose-p:font-light text-black'>
+								<p>
+									Bij mij kan u terecht voor een groot assortiment kazen. Ik verkoop specialiteiten van boerderijen bij ons hier in Vlaanderen en ook een beetje uit Frankrijk, Italië en Zwitserland.
+								</p>
+								<p>
+									Bij De Kleine Ooievaar vindt u ook heerlijke zuivelproducten van bij de boer zoals, verse yoghurt, karnemelk,plattekaas, eitjes,...
+								</p>
+								<p>Ook maken wij heerlijke kaas, charcuterie en tapasplanken. Voor bij de mensen thuis voor u feest of gelegenheid, alsook voor bedrijven.</p>
+								<p>
+									Kaas en charcuterie planken zijn <span class="font-bold">18 euro</span> per persoon
+									<br/>
+									Tapas planken zijn <span class="font-bold">16 euro</span> per persoon
+									<br/>
+									Raclette planken zijn <span class="font-bold">16 euro</span> per persoon
+								</p>
+								<p>Er wordt <span class="font-bold">15 euro</span> leeggoed per plank aan gerekend.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg-[#f0f0f0] py-9 relative">
+			<div class="hidden md:block absolute -left-18 bottom-[22rem] sm:bottom-14 md:bottom-18 lg:bottom-26 border-[5px] border-brand-beige w-[24rem] sm:w-[16rem] md:w-[16rem] xl:w-[20rem] h-[20rem] md:h-[25rem] lg:h-[29rem]"></div>
+			<div class="container xl:pl-26">
+				<div class="flex flex-col sm:flex-row gap-7 sm:gap-10 md:gap-0 lg:gap-20">
+					<div class="w-full sm:w-1/2 md::w-3/5 lg:w-[55%] relative pt-8 lg:pt-16">
+						<div class="absolute md:-right-10 lg:-right-18 top-0 md:top-52 md:rotate-90 text-brand-beige text-4xl md:text-6xl lg:text-[80px]">Planken</div>
+						<img
+							src='/img/cheese-boards-image.jpg'
+							class='h-[18rem] md:h-[23rem] object-cover object-[50%_10%] lg:h-[25rem] w-full md:w-3/4 mt-3 md:mt-0'
+							alt=''
+						/>
+						<span class="text-black text-right block md:pr-10 pt-3 md:pt-6 lg:pt-10 text-xs">Ontdek hieronder onze overheerlijke planken</span>
+					</div>
+					<div class="w-full sm:w-1/2 md:w-2/5 lg:w-[45%] relative h-[24rem] md:h-[28rem] lg:h-[35rem]">
+						<div class="absolute bottom-4 inset-x-0 mx-auto z-20 flex justify-center gap-1">
+							<div class="border border-white p-px rounded-full size-3">
+								<div class="rounded-full w-full h-full border-2 border-transparent bg-white"></div>
+							</div>
+							<div class="rounded-full size-3 border border-white bg-transparent"></div>
+							<div class="rounded-full size-3 border border-white bg-transparent"></div>
+						</div>
+						<img
+							src='/img/table-with-flowers.jpg'
+							class='object-cover w-full object-[50%_30%] h-full'
+							alt=''
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pt-12 lg:pt-16 pb-6 s:mpb-8 lg:pb-10">
+			<div class="container mr-0 pr-0 lg:pl-32 xl:pl-56">
+				<div class="overflow-auto relative">
+					<div class="flex gap-8 md:gap-10 pb-8 whitespace-nowrap">
+						<div class="w-full">
+							<div class="w-[14rem] sm:w-[15rem] md:w-[16rem] lg:w-[19.5rem] relative shrink-0">
+								<div class="absolute right-0 top-0 h-56 lg:h-74 w-[93%]">
+									<div class="w-ful h-full bg-gradient-to-t from-white via-transparent absolute inset-0 z-20"></div>
+									<img
+										src='/img/Kaas-image.jpg'
+										class='object-cover w-full h-full'
+										alt=''
+									/>
+								</div>
+								<div class="pt-48 lg:pt-68 relative z-30">
+									<h3 class="text-brand-beige text-3xl sm:text-4xl xl:text-5xl">Kaas</h3>
+									<div class="text-right">
+										<p class="text-xs pb-0 mb-0">18 euro / per persoon</p>
+										<p class="text-[9px]">15 euro waarborg*</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="w-full">
+							<div class="w-[14rem] sm:w-[15rem] md:w-[16rem] lg:w-[19.5rem] relative shrink-0">
+								<div class="absolute right-0 top-0 h-56 lg:h-74 w-[93%]">
+									<div class="w-ful h-full bg-gradient-to-t from-white via-transparent absolute inset-0 z-20"></div>
+									<img
+										src='/img/Vlees-image.jpg'
+										class='object-cover w-full h-full'
+										alt=''
+									/>
+								</div>
+								<div class="pt-48 lg:pt-68 relative z-30">
+									<h3 class="text-brand-beige text-3xl sm:text-4xl xl:text-5xl">Vlees</h3>
+									<div class="text-right">
+										<p class="text-xs pb-0 mb-0">18 euro / per persoon</p>
+										<p class="text-[9px]">15 euro waarborg*</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="w-full">
+							<div class="w-[14rem] sm:w-[15rem] md:w-[16rem] lg:w-[19.5rem] relative shrink-0">
+								<div class="absolute right-0 top-0 h-56 lg:h-74 w-[93%]">
+									<div class="w-ful h-full bg-gradient-to-t from-white via-transparent absolute inset-0 z-20"></div>
+									<img
+										src='/img/Raclette-image.jpg'
+										class='object-cover w-full h-full'
+										alt=''
+									/>
+								</div>
+								<div class="pt-48 lg:pt-68 relative z-30">
+									<h3 class="text-brand-beige text-3xl sm:text-4xl xl:text-5xl">Raclette</h3>
+									<div class="text-right">
+										<p class="text-xs pb-0 mb-0">16 euro / per persoon</p>
+										<p class="text-[9px]">15 euro waarborg*</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="w-full pr-4">
+							<div class="relative w-[14rem] sm:w-[15rem] md:w-[16rem] lg:w-[19.5rem] shrink-0">
+								<div class="absolute right-0 top-0 h-56 lg:h-74 w-[93%]">
+									<div class="w-ful h-full bg-gradient-to-t from-white via-transparent absolute inset-0 z-20"></div>
+									<img
+										src='/img/Kaas-image.jpg'
+										class='object-cover w-full h-full'
+										alt=''
+									/>
+								</div>
+								<div class="pt-48 lg:pt-68 relative z-30">
+									<h3 class="text-brand-beige text-3xl sm:text-4xl xl:text-5xl">Raclette</h3>
+									<div class="text-right">
+										<p class="text-xs pb-0 mb-0">16 euro / per persoon</p>
+										<p class="text-[9px]">15 euro waarborg*</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="relative w-full bg-[#dcdcdc] h-1">
+						<div class="absolute left-0 inset-y-0 w-40 sm:w-56 h-full z-20 bg-brand-beige"></div>
+					</div>
+				</div>
+				<div class="flex justify-end pr-4 mr-4 mt-5">
+					<svg class="size-8 text-brand-beige" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"></path></svg>
+					<svg class="size-8 text-brand-beige" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>
+				</div>
+			</div>
+		</div>
+		<div class="mb-8 sm:mb-12 lg:mb-16 relative">
+			<img src="/img/cta-image.jpg" class="w-full h-40 sm:h-56 lg:h-80 xl:h-[23rem] object-cover object-[50%_65%]" alt="">
+		</div>
+		<div class="bg-brand-beige relative">
+			<div class="container pt-10 sm:pt-12 lg:pt-16 pb-28 lg:pb-36">
+				<form class="mx-auto max-w-[640px] pb-10 lg:pb-14">
+					<div class="text-center pb-6 sm:pb-7 md:pb-8">
+						<h2 class=" text-white text-2xl sm:text-3xl md:text-4xl xl:text-5xl pb-3 md:pb-4 xl:pb-6">Zin in een gezellige avond?</h2>
+						<p class="text-white md:text-lg xl:text-xl">Bestel onze planken via onderstaand formulier:</p>
+					</div>
+					<div class="space-y-2 sm:space-y-4">
+						<input type="text" name="company-name" id="company-name" placeholder="Bedrijfsnaam (optioneel)" class="border border-white px-3 py-[2px] text-white bg-transparent placeholder-white w-full">
+						<div class="flex flex-col sm:flex-row gap-2 sm:gap-4">
+							<input type="text" name="lastname" id="lastname" placeholder="Voornaam" class="border border-white px-3 py-[2px] text-white bg-transparent placeholder-white sm:w-1/2">
+							<input type="text" name="name" id="name" placeholder="Naam" class="border border-white px-3 py-[2px] text-white bg-transparent placeholder-white sm:w-1/2">
+						</div>
+						<div class="flex flex-col sm:flex-row gap-2 sm:gap-4">
+							<input type="email" name="email" id="email" placeholder="Email" class="border border-white px-3 py-[2px] text-white bg-transparent placeholder-white sm:w-1/2">
+							<input type="text" name="tel" id="tel" placeholder="Tel." class="border border-white px-3 py-[2px] text-white bg-transparent placeholder-white sm:w-1/2">
+						</div>
+					</div>
+					<div class="pt-5 border-b-2 border-white">
+						<h4 class="font-semibold text-white sm:text-xl pb-3 sm:pb-4">Keuze planken:</h4>
+						<div class="grid grid-cols-2 md:grid-cols-4 gap-3 pb-6">
+							<div class="flex gap-2 items-center">
+								<div class="bg-transparent border border-white" data-hs-input-number="">
+									<div class="flex justify-between items-center gap-x-1">
+										<div class="w-7 py-0 px-3">
+											<input class="p-0 bg-transparent border-0 text-white focus:ring-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none" style="-moz-appearance: textfield;" type="number" aria-roledescription="Number field" value="1" data-hs-input-number-input="">
+										</div>
+										<div class="flex flex-col -gap-y-px divide-y divide-white border-s border-white">
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Increase" data-hs-input-number-increment="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+													<path d="M12 5v14"></path>
+												</svg>
+											</button>
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Decrease" data-hs-input-number-decrement="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+								<span class="text-white">Kaasplank</span>
+							</div>
+							<div class="flex gap-2 items-center">
+								<div class="bg-transparent border border-white" data-hs-input-number="">
+									<div class="flex justify-between items-center gap-x-1">
+										<div class="w-7 py-0 px-3">
+											<input class="p-0 bg-transparent border-0 text-white focus:ring-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none" style="-moz-appearance: textfield;" type="number" aria-roledescription="Number field" value="1" data-hs-input-number-input="">
+										</div>
+										<div class="flex flex-col -gap-y-px divide-y divide-white border-s border-white">
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Increase" data-hs-input-number-increment="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+													<path d="M12 5v14"></path>
+												</svg>
+											</button>
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Decrease" data-hs-input-number-decrement="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+								<span class="text-white">Vleesplank</span>
+							</div>
+							<div class="flex gap-2 items-center">
+								<div class="bg-transparent border border-white" data-hs-input-number="">
+									<div class="flex justify-between items-center gap-x-1">
+										<div class="w-7 py-0 px-3">
+											<input class="p-0 bg-transparent border-0 text-white focus:ring-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none" style="-moz-appearance: textfield;" type="number" aria-roledescription="Number field" value="1" data-hs-input-number-input="">
+										</div>
+										<div class="flex flex-col -gap-y-px divide-y divide-white border-s border-white">
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Increase" data-hs-input-number-increment="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+													<path d="M12 5v14"></path>
+												</svg>
+											</button>
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Decrease" data-hs-input-number-decrement="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+								<span class="text-white">Tapasplank</span>
+							</div>
+							<div class="flex gap-2 items-center">
+								<div class="bg-transparent border border-white" data-hs-input-number="">
+									<div class="flex justify-between items-center gap-x-1">
+										<div class="w-7 py-0 px-3">
+											<input class="p-0 bg-transparent border-0 text-white focus:ring-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none" style="-moz-appearance: textfield;" type="number" aria-roledescription="Number field" value="1" data-hs-input-number-input="">
+										</div>
+										<div class="flex flex-col -gap-y-px divide-y divide-white border-s border-white">
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Increase" data-hs-input-number-increment="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+													<path d="M12 5v14"></path>
+												</svg>
+											</button>
+											<button type="button" class="size-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-black/60 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none" aria-label="Decrease" data-hs-input-number-decrement="">
+												<svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+													<path d="M5 12h14"></path>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+								<span class="text-white">Racletteplank</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-end items-center gap-4 pt-1">
+						<span class="text-white">Huidige bestelling:</span>
+						<span class="text-white font-bold text-xl">€ 18,00</span>
+					</div>
+					<textarea name="comment" id="comment" placeholder="Opmerkingen (allergenen, vragen,...)" class="border border-white px-3 py-[2px] text-white bg-transparent placeholder-white w-full h-28 mt-6"></textarea>
+					<div class="flex justify-center pt-1">
+						<div class="border-[8px] border-transparent rounded-full">
+							<button class="text-white hover:text-black uppercase font-medium px-5 py-1 border-[5px] rounded-full outline-offset-2 outline-solid outline-white hover:outline-black transition-colors duration-100 ease-linear">BESTELLEN</button>
+						</div>
+					</div>
+				</form>
+				<div>
+					<h2 class=" text-white text-2xl sm:text-3xl md:text-4xl xl:text-5xl pb-3 md:pb-7 xl:pb-10 text-center">Mijn markten:</h2>
+					<div class="grid md:grid-cols-5 divide-white divide-y md:divide-y-0 md:divide-x">
+						<div class="text-center space-y-1 lg:space-y-2 py-2 md:py-0">
+							<span class="text-white lg:text-lg xl:text-xl block">Dinsdag (vm):</span>
+							<span class="text-white lg:text-lg xl:text-xl font-bold block">Zomergem</span>
+						</div>
+						<div class="text-center space-y-1 lg:space-y-2 py-2 md:py-0">
+							<span class="text-white lg:text-lg xl:text-xl block">Woensdag (vm):</span>
+							<span class="text-white lg:text-lg xl:text-xl font-bold block">Deinze</span>
+						</div>
+						<div class="text-center space-y-1 lg:space-y-2 py-2 md:py-0">
+							<span class="text-white lg:text-lg xl:text-xl block">Donderdag (vm):</span>
+							<span class="text-white lg:text-lg xl:text-xl font-bold block">Wenduine</span>
+						</div>
+						<div class="text-center space-y-1 lg:space-y-2 py-2 md:py-0">
+							<span class="text-white lg:text-lg xl:text-xl block">DVrijdag (vm):</span>
+							<span class="text-white lg:text-lg xl:text-xl font-bold block">Ruiselede</span>
+						</div>
+						<div class="text-center space-y-1 lg:space-y-2 py-2 md:py-0">
+							<span class="text-white lg:text-lg xl:text-xl block">Zaterdag (vm):</span>
+							<span class="text-white lg:text-lg xl:text-xl font-bold block">Brugge</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container pb-9 relative z-30 -mt-20 lg:-mt-24">
+			<div class="lg:w-4/5 mx-auto flex flex-col sm:flex-row gap-6 lg:gap-10 xl:gap-14">
+				<img src="/img/gallery-01.JPG" class="sm:w-1/3 h-52 sm:h-40 md:h-52 object-cover object-[50%_40%] sm:object-[50%_50%]" alt="">
+				<img src="/img/gallery-02.jpg" class="sm:w-1/3 h-52 sm:h-40 md:h-52 object-cover object-[50%_10%]" alt="">
+				<img src="/img/gallery-03.JPG" class="sm:w-1/3 h-52 sm:h-40 md:h-52 object-cover object-[50%_20%]" alt="">
+			</div>
+		</div>
 	</div>
 	<Footer />
 </Layout>
